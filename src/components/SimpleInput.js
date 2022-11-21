@@ -72,7 +72,7 @@ const SimpleInput = (props) => {
           <p className="error-text">Name must not be empty</p>
         )}
         {emailInputHasError && (
-          <p className="error-text">Email must valid and not empty</p>
+          <p className="error-text">Email must be valid and not empty</p>
         )}
       </div>
       <div className="form-actions">
